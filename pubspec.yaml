@@ -12,7 +12,10 @@ dependencies:
   hex: ^0.2.0
   gbk_codec: ^0.4.0
   image: ^3.0.2
-  dart_big5: ^0.0.5
+  dart_big5:
+    git:
+      url: https://github.com/pp1127/dart-big5.git
+      ref: master
 
 dev_dependencies:
   flutter_test:
