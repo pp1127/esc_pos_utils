@@ -579,8 +579,8 @@ class Generator {
     bytes += setStyles(PosStyles().copyWith(align: align));
 
     final Image image = Image.from(imgSrc); // make a copy
-    const bool highDensityHorizontal = true;
-    const bool highDensityVertical = true;
+    //const bool highDensityHorizontal = true;
+    //const bool highDensityVertical = true;
 
     invert(image);
     flip(image, Flip.horizontal);
