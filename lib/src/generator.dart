@@ -586,7 +586,7 @@ class Generator {
     flip(image, Flip.horizontal);
     final Image imageRotated = copyRotate(image, 270);
 
-    const int lineHeight = highDensityVertical ? 3 : 1;
+    final int lineHeight = highDensityVertical ? 3 : 1;
     final List<List<int>> blobs = _toColumnFormat(imageRotated, lineHeight * 8);
 
     // Compress according to line density
@@ -598,7 +598,7 @@ class Generator {
     }
 
     final int heightPx = imageRotated.height;
-    const int densityByte =
+    final int densityByte =
         (highDensityHorizontal ? 1 : 0) + (highDensityVertical ? 32 : 0);
 
     final List<int> header = List.from(cBitImg.codeUnits);
