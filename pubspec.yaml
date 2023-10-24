@@ -9,9 +9,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  hex: ^0.2.0
-  gbk_codec: ^0.4.0
-  image: ^3.0.2
+  hex: 0.2.0
+  gbk_codec: 0.4.0
+  image: 3.0.2
   dart_big5:
     git:
       url: https://github.com/pp1127/dart-big5.git
